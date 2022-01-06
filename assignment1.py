@@ -13,7 +13,7 @@ print((x1+x2+x3)/3)
 
 """
 print("enter your gross income= ")
-gross_income=int(input())
+gross_income=float(input())
 print("number of dependents= ")
 dependent=int(input())
 taxable_income=gross_income-10000-(dependent*3000)
@@ -54,7 +54,7 @@ print(COLOUR_LIST)
 del COLOUR_LIST[3]
 print(COLOUR_LIST)      #list obtained after deleting colour black
 
-COLOUR_LIST=["Red","Green","White","Black","Pink","Yellow"]
-COLOUR_LIST[3]=COLOUR_LIST[4]="Purple"
+
+COLOUR_LIST[3]="Purple"
 print(COLOUR_LIST)       #list obtained after replacing 4th and 5th element with pink colour
 """
