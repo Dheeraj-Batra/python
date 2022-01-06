@@ -12,10 +12,10 @@ enter 3rd num=
 
 =============== RESTART: C:\Users\dheer\Documents\assignment1.py ===============
 enter your gross income= 
-100000
+20000
 number of dependents= 
-3
-16200.0
+2
+800.0
 
 =============== RESTART: C:\Users\dheer\Documents\assignment1.py ===============
 enter your name= dheeraj
@@ -31,4 +31,4 @@ enter your gender= M
 =============== RESTART: C:\Users\dheer\Documents\assignment1.py ===============
 ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 ['Red', 'Green', 'White', 'Pink', 'Yellow']
-['Red', 'Green', 'White', 'Purple', 'Purple', 'Yellow']
+['Red', 'Green', 'White', 'Purple', 'Yellow']
