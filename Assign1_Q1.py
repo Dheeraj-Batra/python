@@ -1,7 +1,0 @@
-print("enter 1st num= ")
-x1=int(input())
-print("enter 2nd num= ")
-x2=int(input())
-print("enter 3rd num= ")
-x3=int(input())
-print((x1+x2+x3)/3)
