@@ -75,7 +75,7 @@ remainder=first_num%second_num
 print(f"the quotient is {quotient} and remainder is {remainder}")
 print("\n")
 
-#part_a
+#part_a=check if values are callable or not
 print("part_a=")
 a=print("value of first_num is",callable(quotient))
 b=print("value of second_num is",callable(remainder))
@@ -84,7 +84,7 @@ d=print("value of remainder is",callable(second_num))
 print("\n")
 
 
-#parT_b
+#parT_b=Check whether all the values are non zeros or not
 print("part_b=")
 if (quotient==0 and remainder!=0):
     print("only the quotient is zero")
@@ -111,18 +111,18 @@ for i in list:
 print("new list is=",new_list)
 print("\n")
 
-#part_d
+#part_d=Convert the result into set datatype.
 print("part_d=")
 set=set(new_list)
 print("the set is=",set)
 print("\n")
 
-#part_e
+#part_e=Make that set immutable.
 print("part_e=")
 print("immutable set is=",frozenset(set))
 print("\n")
 
-#part_f
+#part_f=Evaluate the maximum value from set and find out its hash value
 print("part_f=")
 print("max value is=",max(set))
 print("hash value is=",hash(max(set)))
@@ -144,14 +144,14 @@ class Student():
     def details(self):
         return(f"name of child is {self.name} and roll no is {self.sid}")
 
-    def __del__(self):
+    def __del__(self):    #destructor has been called 
         print("details of the object have been deleted successfully")
 
     
 Dheeraj = Student("Dheeraj", 21104030)
 print(Dheeraj.details())
 
-del Dheeraj
+del Dheeraj  # object has been deleted
 print("\n")
 print("-"*50)
 
@@ -181,7 +181,7 @@ print("congo mehak ur salary has been updated to= ", Mehak.salary)
 print("\n")
 
 # part B
-del Viren
+del Viren       #del function as been called to delete object viren
 print("details of viren have been deleted successfully")
 print("\n")
 print("-"*50)
