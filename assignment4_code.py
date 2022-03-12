@@ -4,7 +4,7 @@ print("QUESTION 1")
 #source refers to rod 1 , intermediate refers to rod 2 and destination refers to rod 3
 
 
-def TowerofHanoi(n, source, intermediate,destination):
+def TowerofHanoi(n, source,destination, intermediate):
     if n == 1:     # base case 
         print("move disk 1 from source", source, "to destination", destination)
         return
